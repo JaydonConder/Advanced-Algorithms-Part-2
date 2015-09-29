@@ -1,9 +1,10 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
+\usepackage{amssymb}
 
 %opening
-\title{TODO: Title Here}
-\author{Jaydon Conder, Na’Shea Wiesner, Sawyer Payne, Seth Kreitinger, AJ Gaylor, William Dittman}
+\title{Algorithm Applications} %We can change this if anyone wants %
+\author{Jaydon Conder, Nashea Wiesner, Sawyer Payne, Seth Kreitinger, AJ Gayler, William Dittman}
 
 \begin{document}
 
@@ -11,16 +12,16 @@
 
 TODO: brief introduction
 
-\section{Algorithm 1: TODO:AUDIO STREAMING PATCHING}
-TODO: explain what problem Algorithm 1 solves
-Nowadays, much of the data transfered online is through audio and video streaming.  But this takes a toll on the
+\section{Algorithm 1: AUDIO STREAMING PATCHING}
+%TODO: explain what problem Algorithm 1 solves %
+Nowadays, much of the data transferred online is through audio and video streaming. This can take a toll on the
 reliability and speed of the user's network.  This, therefore, causes much more data to be lost and the transfer 
 of the stream to be interrupted.  To overcome this issue, an algorithm has been developed to patch the streaming
 audio (particularly music) with stored recordings or expected repeat snippets from earlier in the track.  This 
 is for patching a loss that is unacceptable to the user(15-20 seconds).  Basically, along with existing audio compression 
 techniques, a method is used to monitor the syntax of the music when streaming over a low bandwidth network.  
-Using a method called Song Form Intelligence(SoFi), the packet loss is determined and then a scan is performed through portions of the song already received in the buffer to see if a possible match exists.  The song is first divided into chunks (i.e. 
-Intro, Verse, Chorus)  and then each chunk holds the corresponding pakets received.  If, for instance, a packet is lost 
+Using a method called Song Form Intelligence(SoFI), the packet loss is determined and then a scan is performed through portions of the song already received in the buffer to see if a possible match exists.  The song is first divided into chunks (i.e. 
+Intro, Verse, Chorus)  and then each chunk holds the corresponding packets received.  If, for instance, a packet is lost 
 on the second repeat of the chorus, the matching packet from the first chorus will replace it.  The goal is to make
 the loss undetectable to the user and produce a smooth stream.
 Reference: ACM Transactions on Intelligent Systems and Technology, Vol. 6, No. 2, Article 25, Publication date: March 2015.
@@ -29,6 +30,7 @@ Audio Streamed across Wireless Networks
 JONATHAN DOHERTY, University of Ulster
 KEVIN CURRAN, University of Ulster
 PAUL McKEVITT, University of Ulster
+
 
 \section{Algorithm 1: TODO:SHORTNAME}
 TODO: explain what problem Algorithm 1 solves
