@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  29 SEP 2015 10:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  29 SEP 2015 10:49
 entering extended mode
 **P02-groupN.tex
 (C:\Users\Jaydon\Desktop\Advanced-Algorithms-Part-2\P02-groupN.tex
@@ -136,24 +136,24 @@ Overfull \hbox (29.72052pt too wide) in paragraph at lines 11--11
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
 (C:\Users\Jaydon\Desktop\Advanced-Algorithms-Part-2\P02-groupN.aux) ) 
 Here is how much of TeX's memory you used:
  1050 strings out of 493921
  13826 string characters out of 3147280
- 66234 words of memory out of 3000000
+ 67234 words of memory out of 3000000
  4378 multiletter control sequences out of 15000+200000
  9489 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 25i,6n,32p,269b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,6n,32p,844b,197s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr17.pfb>
-Output written on P02-groupN.pdf (1 page, 63763 bytes).
+Output written on P02-groupN.pdf (2 pages, 67207 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
