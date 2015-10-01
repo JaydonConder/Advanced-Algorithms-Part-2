@@ -10,7 +10,7 @@
 
 \maketitle
 
-TODO: brief introduction
+The three algorithms discussed in this paper all have a common theme. They are all solutions to problems created by an ever increasing demand for handling data in an ever changing environment. Together, they cover three major areas where intensive network reliance can cause crippling issues. The Rubik’s Cube Cipher addresses data security, Audio Streaming Patching covers recovery of dropped stream data, and the Raft Consensus Algorithm covers redundancy in large scale computing clusters. It is modern algorithms like these that allow for the reliable, fast, and secure handling of the mass quantities of data being created every day. 
 
 \section{Algorithm 1: AUDIO STREAMING PATCHING}
 %TODO: explain what problem Algorithm 1 solves %
@@ -24,6 +24,7 @@ Using a method called Song Form Intelligence(SoFI), the packet loss is determine
 Intro, Verse, Chorus)  and then each chunk holds the corresponding packets received.  If, for instance, a packet is lost 
 on the second repeat of the chorus, the matching packet from the first chorus will replace it.  The goal is to make
 the loss undetectable to the user and produce a smooth stream.
+
 Reference: ACM Transactions on Intelligent Systems and Technology, Vol. 6, No. 2, Article 25, Publication date: March 2015.
 Pattern Matching Techniques for Replacing Missing Sections of
 Audio Streamed across Wireless Networks
@@ -34,6 +35,7 @@ PAUL McKEVITT, University of Ulster
 
 \section{Algorithm 2: RUBIK'S CUBE CIPHER}
 Data security is one of the bigger issues facing people today. With so much of society's interactions taking placing online, encryption algorithms are needed to make sure that only the people for which the message is intended can access it. The Rubik's Cube Image Encryption algorithm takes images sent by user one, changes it into something completely unrecognizable by shuffling the pixels' rows and columns and then doubly ciphering the image using two different ciphering matrices created from chaotic systems. Once the algorithm reaches the person it was intended for, that person decrypts the image using a related algorithm that transforms the image back into the original. This algorithm helps to ensure the only the users with the correct key can decrypt the image, ensuring privacy throughout the whole transaction. 
+
 Reference: Mathematical Problems in Engineering, Vol. 2013, Article ID 848392, Publication date: February 2013. An Improved Secure Image Encryption Algorithm Based on Rubik's Cube Principle and Digital Chaotic Cipher
 ADRIAN-VIOREL DIACONU, University Politehnica of Bucharest
 KHALED LOUKHAOUKHA, Laval University
@@ -47,7 +49,10 @@ Three possible roles of a node exists in a Raft cluster: followers, candidates, 
 
 Since one of the selling points of Raft is fault tolerance, the algorithm accounts for message/computation delays of arbitrary time, packet loss, duplication, and re-ordering. As a result, nodes are able to dynamically elect/find a leader, as well as synchronize states. Synchronization of states is done by using the previously mentioned log that exists on every node (and is the same on every node). When one node makes a change to the log it informs the other nodes who then update their own logs thereby keeping the clustered nodes in the same state.
 
-\section{Discussion}
-This is an optional section, for this assignment.
-
+Reference: ACM SIGOPS Operating Systems Review - Special Issue on Repeatability and sharing of Experimental Artifacts, Vol. 49, Issue 1, Pages 12-21, Publication date: January 2015.
+Raft Refloated: Do We Have Consensus?
+HEIDI HOWARD, University of Cambridge Computer Laboratory
+Malte Schwarzkopf, University of Cambridge Computer Laboratory
+Anil Madhavapeddy, University of Cambridge Computer Laboratory
+Jon Crowcroft, University of Cambridge Computer Laboratory
 \end{document}
